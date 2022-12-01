@@ -31,20 +31,33 @@ After you're finished please remove all the comments and instructions!
 
 </div>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-    - [📖 Getting Started](#getting-started)
-        - [Setup](#setup)
-        - [Prerequisites](#prerequisites)
-
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Hello Microverse] <a name="about-project"></a>
 
-> In this project, you will set up a "setup and mobile first" repository. 
+> In this project, you will set up a "setup and mobile first" repository.
 
 **[your_project__name]** is a...
 
@@ -76,7 +89,6 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
 ```sh
@@ -91,15 +103,11 @@ Linters command to check html:
   npx hint .
 ```
 
-
 Linters command to check css:
 
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,6 +124,3 @@ Linters command to check css:
 - LinkedIn: [LinkedIn](https://twitter.com/raezon_dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
