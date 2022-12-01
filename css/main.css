@@ -1,17 +1,18 @@
 body {
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
+
 .container {
   width: 90%;
   margin: 0 auto;
 }
 
 .no-margin-bottom {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .no-margin-top {
-  margin-top: 0px;
+  margin-top: 0;
 }
