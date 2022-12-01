@@ -1,0 +1,40 @@
+.illustration-head-line {
+  background-image: url("../img/illustration-head-line.png");
+  background-position-y: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-Head-Line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.h2 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+/* proportion */
+.Proportion-Text {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+}

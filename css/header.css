@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+/* Subhead */
+.Subhead {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* Humbger-nav */
+.Humbger-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Union */
+.Union {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 18px;
+  height: 12px;
+}
+
+/* Vector */
+.Vector {
+  font-family: "Inter", sans-serif;
+  border: 2px solid #28352f;
+}
