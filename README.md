@@ -82,9 +82,21 @@ Example commands:
 ```sh
   cd my-folder
   git clone https://github.com/raezon/portfolio-microverse.git
+  npm i
+```
+
+Linters command to check html:
+
+```sh
+  npx hint .
 ```
 
 
+Linters command to check css:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 
 
