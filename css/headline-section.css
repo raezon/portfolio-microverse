@@ -6,8 +6,9 @@
 }
 
 .container-Head-Line {
-  margin-left: 15px;
-  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-top: 30px;
   padding-bottom: 40px;
 }
