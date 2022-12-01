@@ -1,5 +1,17 @@
-.container{
-    width: 90%;
-    padding-top: 10px;
-    margin: 0 auto;
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.no-margin-top {
+  margin-top: 0px;
 }
