@@ -12,3 +12,10 @@
   text-align: center;
   display: inline-block;
 }
+.green-decorator {
+  display: flex;
+  width: 40px;
+  font-family: "Inter", sans-serif;
+  border: 2px solid #36b37e;
+  border-radius: 24px;
+}
