@@ -1,0 +1,32 @@
+.h1-about-me {
+  width: 351px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.p-about-me {
+  width: 351px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-get-resume {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #fff;
+}
