@@ -10,28 +10,36 @@
 .Neutral-1 {
   color: #28352f;
 }
+
 .Neutral-2 {
   color: #3a4a42;
 }
+
 .Neutral-500 {
   color: #42526e;
 }
+
 .Neutrals-600 {
   color: #344563;
 }
+
 .White {
   color: #fff;
 }
-/* Background*/
+
+/* Background */
 .Bg-Green-trust {
   background: #36b37f;
 }
+
 .Bg-White {
   background: #fff;
 }
+
 .BG-gray-custom {
   background: #ebf0ee;
 }
+
 .BG-gray-skils {
   background: #ebf0ee;
 }

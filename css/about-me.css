@@ -1,6 +1,6 @@
 .h1-about-me {
   width: 351px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -10,7 +10,7 @@
 
 .p-about-me {
   width: 351px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -22,7 +22,7 @@
 }
 
 .text-get-resume {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -34,8 +34,9 @@
 .gray-content-about-me-height {
   height: 200px;
 }
+
 .about-me-txt {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
