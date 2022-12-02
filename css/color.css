@@ -10,3 +10,25 @@
 .Neutral-1 {
   color: #28352f;
 }
+.Neutral-2{
+  color:#3A4A42;
+}
+.Neutral-500{
+  color:#42526E;
+}
+.White{
+  color:#fff;
+}
+/* Background*/
+.Bg-Green-trust {
+  background: #36b37f;
+}
+.Bg-White{
+   background: #ebf0ee;
+}
+.BG-gray-custom{
+  background:#EBF0EE
+}
+.BG-gray-skils{
+   background:#EBF0EE;
+}
