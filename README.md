@@ -132,31 +132,25 @@ Example command:
 ```
  -->
 
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/raezon/portfolio-microverse.git
+  npm i
 ```
---->
 
-### Install
-
-Install this project with:
-
-<!--
-Example command:
+Linters command to check html:
 
 ```sh
-  cd my-project
-  gem install
+  npx hint .
 ```
---->
+
+Linters command to check css:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 ### Usage
 
@@ -207,7 +201,6 @@ Example:
 - GitHub: [@githubhandle](https://github.com/raezon)
 - Twitter: [@twitterhandle](https://www.linkedin.com/in/ammar-djebabla-519030190/)
 - LinkedIn: [LinkedIn](https://twitter.com/raezon_dev)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
