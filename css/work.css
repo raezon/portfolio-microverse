@@ -1,0 +1,14 @@
+.Work-Head-line {
+  display: flex;
+  flex-shrink: 0;
+}
+.h1-work {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  width: 327px;
+  line-height: 52px;
+  text-align: center;
+  display: inline-block;
+}
