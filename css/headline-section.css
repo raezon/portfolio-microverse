@@ -2,7 +2,7 @@
   background-image: url("../img/illustration-head-line.png");
   background-position-y: 60px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .container-Head-Line {

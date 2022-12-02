@@ -9,10 +9,52 @@ body {
   margin: 0 auto;
 }
 
+.padding-bottom {
+  padding-bottom: 50px;
+}
+
 .no-margin-bottom {
   margin-bottom: 0;
 }
 
 .no-margin-top {
   margin-top: 0;
+}
+
+.grid-center-horizental {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex-center-horizental {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.flex-center-horizental-work {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-vertical-horizental {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.center-img-vertical-horizental {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
