@@ -22,10 +22,9 @@ body {
 }
 
 .flex-center-horizental {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  justify-content: center;
   gap: 20px;
-  align-items: center;
 }
 
 .flex-center-horizental-work {
@@ -37,7 +36,7 @@ body {
 }
 
 .flex-center-vertical-horizental {
-  display: flex;
+  display: grid;
   align-items: center;
   text-align: center;
 }
