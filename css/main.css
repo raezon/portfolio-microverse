@@ -27,6 +27,7 @@ body {
   gap: 20px;
 }
 
+
 .flex-center-horizental {
   display: flex;
   flex-direction: column;
