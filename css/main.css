@@ -16,3 +16,8 @@ body {
 .no-margin-top {
   margin-top: 0;
 }
+
+.flex-center-vertical-horizental {
+  display: flex;
+  justify-content: center;
+}
