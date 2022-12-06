@@ -9,7 +9,13 @@ body {
   margin: 0 auto;
 }
 
-.padding-bottom {
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+.padding-bottom-50 {
   padding-bottom: 50px;
 }
 
