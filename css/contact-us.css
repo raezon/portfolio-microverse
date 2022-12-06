@@ -1,0 +1,70 @@
+.h1-contact-us {
+  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.contact-input {
+  width: 327px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.contact-input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+}
+
+.contact-text-area {
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  width: 327px;
+  height: 114px;
+}
+
+.contact-text-area::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+}
+
+.text-get-in-touch {
+  font-size: 17px;
+}
+
+.email-style {
+  width: 375px;
+  height: 189px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
