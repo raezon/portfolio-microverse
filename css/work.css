@@ -59,21 +59,87 @@
 }
 
 .skils {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 8px;*/
   padding: 0;
   justify-content: center;
   list-style-type: none;
 }
 
 .skils-border {
-  display: flex;
-  flex-direction: row;
+  float: left;
+  margin-left: 4px;
   align-items: center;
   padding: 8px 12px;
   border-radius: 4px;
 }
+
+.skils-border1 {
+  margin: 4px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+/**shift for Languages */
+.skils-shift-languages-1{
+  float: left;
+  margin-left: 0px;
+}
+.skils-shift-languages-2{
+float: left;
+
+}
+.skils-shift-languages-3{
+  float: left;
+}
+.skils-shift-languages-4{
+  float: left;
+  clear: 1;
+  margin-left: 80px;
+}
+.skils-shift-languages-5{
+  float: left;
+}
+/** shift for Frameworks**/
+.skils-shift-1{
+  float: left;
+  margin-left: 30px;
+}
+.skils-shift-2{
+float: left;
+
+}
+.skils-shift-3{
+  float: left;
+}
+.skils-shift-4{
+  float: left;
+  clear: 1;
+  margin-left: 80px;
+}
+.skils-shift-5{
+  float: left;
+}
+/** skils shift **/
+.skils-shift-skils-1{
+  float: left;
+  margin-left: 10px;
+}
+.skils-shift-skils-2{
+float: left;
+}
+.skils-shift-skils-3{
+  float: left;
+}
+.skils-shift-skils-4{
+  float: left;
+}
+.skils-shift-skils-5{
+  float: left;
+  clear: 1;
+  margin-left: 120px;
+}
+
 
 .skils-txt {
   font-family: "Inter", sans-serif;
