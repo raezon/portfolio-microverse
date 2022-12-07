@@ -7,6 +7,14 @@
   line-height: 52px;
   text-align: center;
 }
+.background-image {
+  background-image: url("../img/Vector.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 73%;
+
+ 
+}
 
 .contact-input {
   width: 327px;
