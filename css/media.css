@@ -1,5 +1,17 @@
-  @media (min-width: 800px) {
-    .head-line-suporting-text{
-    width: 920px;
-    }
+@media (min-width: 800px) {
+  /** first illustration **/
+  .illustration-head-line {
+    background-image: url("../img/desktop/illustration-head-line.png");
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
+  /** headline section **/
+  .Head-Line{
+    height: 500px;
+  }
+  .head-line-suporting-text {
+    width: 920px;
+  }
+}
