@@ -12,8 +12,6 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 73%;
-
- 
 }
 
 .contact-input {
@@ -75,4 +73,11 @@
   line-height: 32px;
   text-align: center;
   color: #42526e;
+}
+
+.display-on-desktop {
+  display:none;
+}
+.display-on-mobile {
+  display: unset;
 }
