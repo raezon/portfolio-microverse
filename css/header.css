@@ -5,6 +5,35 @@
   justify-content: space-between;
 }
 
+.desktop-nav {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.desktop-list {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.desktop-list > li {
+  display: inline;
+}
+
+.desktop-list > li > a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+
 /* Subhead */
 .Subhead {
   font-family: "Inter", sans-serif;

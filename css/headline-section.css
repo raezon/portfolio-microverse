@@ -13,6 +13,11 @@
   padding-bottom: 40px;
 }
 
+.Supporting-Head-line {
+  display: flex;
+  justify-content: center;
+}
+
 .h2 {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -29,6 +34,10 @@
   font-size: 20px;
   margin: 0;
   text-align: center;
+}
+
+.head-line-suporting-text {
+  width: 327px;
 }
 
 /* proportion */

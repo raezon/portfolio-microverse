@@ -29,13 +29,34 @@ body {
   margin-top: 0;
 }
 
-.grid-center-horizental {
+.grid-center-horizental1,
+.grid-center-horizental2,
+.grid-center-horizental3,
+.grid-center-horizental4,
+.grid-center-horizental5 {
   display: grid;
-  justify-content: center;
+  justify-items: center;
   gap: 20px;
 }
 
-.flex-center-horizental {
+.grid-center-horizental6 {
+  display: grid;
+  justify-items: start;
+  width: 684px;
+  gap: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-center-horizental0,
+.flex-center-horizental1,
+.flex-center-horizental2,
+.flex-center-horizental3,
+.flex-center-horizental4,
+.flex-center-horizental5 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -65,4 +86,9 @@ body {
 .flex-center {
   display: flex;
   justify-content: center;
+}
+
+section {
+  width: 100%;
+  margin: auto;
 }
