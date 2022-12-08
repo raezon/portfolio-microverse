@@ -15,7 +15,7 @@
 
 <body>
   <main class="illustration-head-line">
-    <header>
+    <header class="display-on-mobile">
       <!-- Starting Tool bar-->
       <nav class="nav">
         <div>
@@ -31,9 +31,25 @@
       </nav>
       <!-- ending Tool bar-->
     </header>
+    <header class="display-on-desktop">
+      <nav class="desktop-nav">
+        <ul class="desktop-list">
+          <li>
+            <a class="Neutrals-600" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="Neutrals-600" href="#about">About</a>
+          </li>
+          <li>
+            <a class="Neutrals-600" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
 
     <!-- Starting Head Line-->
-    <section class="Head-Line">
+    <section id="portfolio" class="Head-Line">
       <div class="container-Head-Line">
         <!-- Starting Primary-->
         <div class="Primary-Head-line">
@@ -214,7 +230,7 @@
     </section>
     <!-- ending Works station Content-->
     <!-- Starting About me-->
-    <section class="padding-bottom-50">
+    <section id="about" class="padding-bottom-50">
       <div class="flex-center-horizental5 padding-bottom-20">
         <h1 class="h1-about-me Neutrals-N800 no-margin-bottom">About Me</h1>
         <p class="p-about-me Neutral-500"> I can help you build a product , feature or website Look through some of my
@@ -334,15 +350,17 @@
     </section>
     <!-- ending contact me-->
     <!-- starting contact me desktop version -->
-    <section class="flex-center-horizental1 padding-bottom-30 display-on-desktop">
+    <section id="contact" class="flex-center-horizental1 padding-bottom-30 display-on-desktop">
       <div class="flex-center-horizental1">
         <h1 class="h1-contact-us Neutrals-N800 no-margin-bottom">I'm always interested in hearing about new projects, so
           if you'd like to chat please get in touch.</h1>
         <form action="https://formspree.io/f/mpznvdon" class="grid-center-horizental6" method="POST">
           <div class="flex">
-            <input type="text" placeholder="First name" class="contact-input-small" required maxlength="30" name="firstName">
+            <input type="text" placeholder="First name" class="contact-input-small" required maxlength="30"
+              name="firstName">
 
-            <input type="text" placeholder="Last name" class="contact-input-small" required maxlength="30" name="lastName">
+            <input type="text" placeholder="Last name" class="contact-input-small" required maxlength="30"
+              name="lastName">
           </div>
           <div>
             <input type="email" placeholder="Email address" class="contact-input" name="email" required>
