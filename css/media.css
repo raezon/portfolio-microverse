@@ -4,10 +4,11 @@
     width: 85%;
     margin: auto;
   }
+
   /** first illustration **/
   .illustration-head-line {
     background-image: url("../img/desktop/illustration-head-line.png");
-    background-position-y: 0px;
+    background-position-y: 0;
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -16,24 +17,29 @@
   .Head-Line {
     height: 1000px;
   }
+
   .head-line-suporting-text {
     width: 920px;
   }
+
   .h1-work {
     width: 100%;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
   }
+
   .green-decorator {
     display: none;
   }
+
   /** media for cards **/
   .gray-content-height,
   .card-project,
   .card-about-me {
     width: 369px;
   }
+
   /** media query on grid   **/
   .grid-center-horizental1,
   .grid-center-horizental2,
@@ -43,12 +49,14 @@
     justify-content: center;
     gap: 20px;
   }
+
   .grid-center-horizental4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 20px;
   }
+
   .grid-center-horizental5 {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr;
@@ -56,10 +64,12 @@
     grid-gap: 10px;
     height: calc(100vh - 10px);
   }
+
   /** contact -us **/
   .display-on-mobile {
     display: none;
   }
+
   .display-on-desktop {
     display: unset;
     padding-bottom: 250px;
@@ -72,15 +82,14 @@
     align-items: center;
     padding-bottom: 50px;
   }
+
   .flex-center-horizental1 {
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: center;
   }
-  .flex-center-horizental5{
-    
-  }
+
   .h1-contact-us {
     font-family: "Inter", sans-serif;
     width: 463px;
@@ -90,6 +99,7 @@
     font-size: 30px;
     line-height: 52px;
   }
+
   .contact-input {
     width: 100%;
     height: 48px;
@@ -99,13 +109,15 @@
     width: 100%;
     height: 114px;
   }
+
   /** inputs **/
   .contact-input,
   .contact-text-area {
     width: 620px;
   }
+
   /** about me **/
-  .p-about-me{
+  .p-about-me {
     width: 920px;
   }
 }

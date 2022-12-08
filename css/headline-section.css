@@ -12,10 +12,12 @@
   padding-top: 30px;
   padding-bottom: 40px;
 }
-.Supporting-Head-line{
+
+.Supporting-Head-line {
   display: flex;
   justify-content: center;
 }
+
 .h2 {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -33,7 +35,8 @@
   margin: 0;
   text-align: center;
 }
-.head-line-suporting-text{
+
+.head-line-suporting-text {
   width: 327px;
 }
 

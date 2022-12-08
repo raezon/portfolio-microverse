@@ -38,6 +38,7 @@ body {
   justify-items: center;
   gap: 20px;
 }
+
 .grid-center-horizental6 {
   display: grid;
   justify-items: start;
@@ -45,10 +46,11 @@ body {
   gap: 20px;
 }
 
-.flex{
+.flex {
   display: flex;
   gap: 20px;
 }
+
 .flex-center-horizental0,
 .flex-center-horizental1,
 .flex-center-horizental2,

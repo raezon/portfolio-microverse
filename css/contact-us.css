@@ -7,6 +7,7 @@
   line-height: 52px;
   text-align: center;
 }
+
 .background-image {
   background-image: url("../img/Vector.png");
   background-repeat: no-repeat;
@@ -22,6 +23,7 @@
   border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
+
 .contact-input {
   width: 327px;
   height: 48px;
@@ -30,7 +32,8 @@
   border-radius: 4px;
 }
 
-.contact-input::placeholder,.contact-input-small::placeholder  {
+.contact-input::placeholder,
+.contact-input-small::placeholder {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -86,6 +89,7 @@
 .display-on-desktop {
   display: none;
 }
+
 .display-on-mobile {
   display: unset;
 }
