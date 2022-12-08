@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio Microverse] <a name="about-project"></a>
 
 > Repository for building a personal portfolio based on anlready figma ui design.
 
@@ -96,9 +96,10 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Navigation menu**
+- **Work section**
+- **About me**
+- **Contact me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,9 +211,10 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Animation**
+- [ ] **Pop up Modal**
+- [ ] **Enhancing Css classes**
+- [ ] **Use css minifier to get one css file**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
