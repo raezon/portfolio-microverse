@@ -29,9 +29,13 @@ body {
   margin-top: 0;
 }
 
-.grid-center-horizental {
+.grid-center-horizental1,
+.grid-center-horizental2,
+.grid-center-horizental3,
+.grid-center-horizental4,
+.grid-center-horizental5{
   display: grid;
-  justify-content: center;
+  justify-items: center;
   gap: 20px;
 }
 

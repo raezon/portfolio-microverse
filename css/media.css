@@ -8,10 +8,32 @@
   }
 
   /** headline section **/
-  .Head-Line{
-    height: 500px;
+  .Head-Line {
+    height: 1100px;
   }
   .head-line-suporting-text {
     width: 920px;
+  }
+  /** media query on grid   **/
+  .grid-center-horizental1,
+  .grid-center-horizental2,
+  .grid-center-horizental3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+  }
+  .grid-center-horizental4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+  }
+  .grid-center-horizental5 {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr 1fr auto auto;
+    grid-gap: 10px;
+    height: calc(100vh - 10px);
   }
 }
