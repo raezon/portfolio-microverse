@@ -1,4 +1,9 @@
 @media (min-width: 800px) {
+  /** section **/
+  section {
+    width: 85%;
+    margin: auto;
+  }
   /** first illustration **/
   .illustration-head-line {
     background-image: url("../img/desktop/illustration-head-line.png");
@@ -9,10 +14,25 @@
 
   /** headline section **/
   .Head-Line {
-    height: 1100px;
+    height: 1000px;
   }
   .head-line-suporting-text {
     width: 920px;
+  }
+  .h1-work {
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .green-decorator {
+    display: none;
+  }
+  /** media for cards **/
+  .gray-content-height,
+  .card-project,
+  .card-about-me {
+    width: 369px;
   }
   /** media query on grid   **/
   .grid-center-horizental1,
@@ -42,13 +62,24 @@
   }
   .display-on-desktop {
     display: unset;
+    padding-bottom: 250px;
   }
 
+  .flex-center-horizental0 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+  }
   .flex-center-horizental1 {
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: center;
+  }
+  .flex-center-horizental5{
+    
   }
   .h1-contact-us {
     font-family: "Inter", sans-serif;
@@ -60,16 +91,21 @@
     line-height: 52px;
   }
   .contact-input {
-  width: 330px;
-  height: 48px;
-}
+    width: 100%;
+    height: 48px;
+  }
 
-.contact-text-area {
-
-  width: 327px;
-  height: 114px;
-}
-
-
-
+  .contact-text-area {
+    width: 100%;
+    height: 114px;
+  }
+  /** inputs **/
+  .contact-input,
+  .contact-text-area {
+    width: 684px;
+  }
+  /** about me **/
+  .p-about-me{
+    width: 920px;
+  }
 }
