@@ -12,7 +12,14 @@
   padding-top: 30px;
   padding-bottom: 40px;
 }
-
+.Primary-Head-line{
+ rotate: 0deg;
+ transition: rotate 2s;
+ transition-delay: 2s;
+}
+.Primary-Head-line:hover{
+rotate: 360deg;
+}
 .Supporting-Head-line {
   display: flex;
   justify-content: center;
