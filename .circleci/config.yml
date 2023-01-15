@@ -30,6 +30,23 @@ jobs:
       - run:
           name: "Say my name"
           command: echo  $My_ENV_VAR
+  save_hello_world_output:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+    - run: echo "I love narimane" > ~/output.txt
+    - persist_to_workspace:
+        root: ~/
+        paths:
+          - output.txt
+  print_output_file:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          command: cat output.txt
 workflows:
   # Name the workflow "welcome"
   welcome:
@@ -42,3 +59,5 @@ workflows:
       - print_my_name:
           requires:
             - print_world
+      - save_hello_world_output
+      - print_output_file
