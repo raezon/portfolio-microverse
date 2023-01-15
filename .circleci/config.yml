@@ -22,6 +22,14 @@ jobs:
       - run:
           name: "Say world"
           command: echo  "world"
+  print_my_name:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - checkout
+      - run:
+          name: "Say my name"
+          command: echo  $My_ENV_VAR
 workflows:
   # Name the workflow "welcome"
   welcome:
