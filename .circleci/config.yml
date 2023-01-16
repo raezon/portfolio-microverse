@@ -8,12 +8,8 @@ orbs:
 commands:
   print_pipeline_id:
     description: "Create a command named print_pipeline_id with a step that prints the Circle CI Workflow ID from its environment variable named $CIRCLE_WORKFLOW_ID to the console."
-    parameters:
-      to:
-        type: string
-        default: $CIRCLE_WORKFLOW_ID 
     steps:
-      - run: echo << parameters.to >>
+      - run: echo  ${CIRCLE_WORKFLOW_ID}
 jobs:
   print_hello:
     docker:
@@ -60,8 +56,7 @@ jobs:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - print_pipeline_id:
-          to: ${CIRCLE_WORKFLOW_ID}
+      - print_pipeline_id
   
           
 workflows:
