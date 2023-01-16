@@ -7,9 +7,8 @@ orbs:
 # Orchestrate or schedule a set of jobs
 commands:
   print_pipeline_id:
-    description: "Create a command named print_pipeline_id with a step that prints the Circle CI Workflow ID from its environment variable named $CIRCLE_WORKFLOW_ID to the console."
     steps:
-      - run: echo  ${CIRCLE_WORKFLOW_ID}
+          - run: echo ${CIRCLE_WORKFLOW_ID}
 jobs:
   print_hello:
     docker:
