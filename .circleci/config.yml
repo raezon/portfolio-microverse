@@ -1,0 +1,76 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+# Use a package of configuration called an orb.
+orbs:
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1
+# Orchestrate or schedule a set of jobs
+commands:
+  print_pipeline_id:
+    steps:
+          - run: echo ${CIRCLE_WORKFLOW_ID}
+jobs:
+  print_hello:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - checkout
+      - run:
+          name: "Say hello"
+          command: echo  "hello"
+  print_world:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - checkout
+      - run:
+          name: "Say world"
+          command: echo  "world"
+  print_my_name:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - checkout
+      - run:
+          name: "Say my name"
+          command: echo  $My_ENV_VAR
+  save_hello_world_output:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+    - run: echo "I love narimane" > ~/output.txt
+    - persist_to_workspace:
+        root: ~/
+        paths:
+          - output.txt
+  print_circle_workflow_id:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - print_pipeline_id
+  my_job:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: exit 1
+      - run:
+          name: on error
+          command: echo "Hello Error!"
+          when: on_fail
+  
+          
+workflows:
+  # Name the workflow "welcome"
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - print_hello
+      - print_world:
+          requires:
+            - print_hello
+      - print_my_name:
+          requires:
+            - print_world
+      - save_hello_world_output
+      - print_circle_workflow_id
+      - my_job
